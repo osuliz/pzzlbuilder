@@ -1,0 +1,24 @@
+   # Python-välimuistit
+   __pycache__/
+   *.py[cod]
+
+   # Virtuaaliympäristöt
+   .venv/
+   venv/
+
+   # Testaus ja kattavuusraportit
+   .pytest_cache/
+   .coverage
+   htmlcov/
+
+   # Paikalliset tunnukset ja asetukset
+   .env
+   .env.*
+   !.env.example
+
+   # Käyttöjärjestelmien väliaikaistiedostot
+   .DS_Store
+   Thumbs.db
+
+   # Vanhat kokeilut ja keskusteluhistoriat
+   dump/

@@ -1,0 +1,85 @@
+﻿pohja	silta	rivin_tyyppi	tila	sekunnit	valinnat	peruutukset	rivi	sarake	suunta	sana_tai_kaava	osumia	arvio	perustelu
+silta4	konnevesi	yhteenveto	täytetty	0.071	8	0							
+silta4	konnevesi	arvioitava					1	1	vaaka	akka			
+silta4	konnevesi	arvioitava					2	1	vaaka	joop			
+silta4	konnevesi	arvioitava					3	1	vaaka	anti			
+silta4	konnevesi	arvioitava					4	1	vaaka	anoa			
+silta4	konnevesi	arvioitava					6	1	vaaka	avio			
+silta4	konnevesi	arvioitava					7	1	vaaka	jehu			
+silta4	konnevesi	arvioitava					8	1	vaaka	osat			
+silta4	konnevesi	arvioitava					9	1	vaaka	tina			
+silta4	konnevesi	arvioitava					1	1	pysty	ajaa			
+silta4	konnevesi	arvioitava					1	2	pysty	konnevesi			
+silta4	konnevesi	arvioitava					1	3	pysty	koto			
+silta4	konnevesi	arvioitava					1	4	pysty	apia			
+silta4	konnevesi	arvioitava					6	1	pysty	ajot			
+silta4	konnevesi	arvioitava					6	3	pysty	ihan			
+silta4	konnevesi	arvioitava					6	4	pysty	outa			
+silta4	ulakeskus	yhteenveto	täytetty	0.06	6	2							
+silta4	ulakeskus	umpikuja					1	1	vaaka	kuot	1		
+silta4	ulakeskus	umpikuja					1	3	pysty	.lue	1		
+silta4	ulakeskus	arvioitava					1	1	vaaka	auer			
+silta4	ulakeskus	arvioitava					2	1	vaaka	alla			
+silta4	ulakeskus	arvioitava					3	1	vaaka	ralf			
+silta4	ulakeskus	arvioitava					4	1	vaaka	ikea			
+silta4	ulakeskus	arvioitava					6	1	vaaka	asia			
+silta4	ulakeskus	arvioitava					7	1	vaaka	uksi			
+silta4	ulakeskus	arvioitava					8	1	vaaka	vuot			
+silta4	ulakeskus	arvioitava					9	1	vaaka	osto			
+silta4	ulakeskus	arvioitava					1	1	pysty	aari			
+silta4	ulakeskus	arvioitava					1	2	pysty	ulakeskus			
+silta4	ulakeskus	arvioitava					1	3	pysty	elle			
+silta4	ulakeskus	arvioitava					1	4	pysty	rafa			
+silta4	ulakeskus	arvioitava					6	1	pysty	auvo			
+silta4	ulakeskus	arvioitava					6	3	pysty	isot			
+silta4	ulakeskus	arvioitava					6	4	pysty	aito			
+silta5	sateenvarjo	yhteenveto	täytetty	0.165	12	0							
+silta5	sateenvarjo	arvioitava					1	1	vaaka	orsit			
+silta5	sateenvarjo	arvioitava					2	1	vaaka	taata			
+silta5	sateenvarjo	arvioitava					3	1	vaaka	satsi			
+silta5	sateenvarjo	arvioitava					4	1	vaaka	oteet			
+silta5	sateenvarjo	arvioitava					5	1	vaaka	toeta			
+silta5	sateenvarjo	arvioitava					7	1	vaaka	lavat			
+silta5	sateenvarjo	arvioitava					8	1	vaaka	avara			
+silta5	sateenvarjo	arvioitava					9	1	vaaka	karve			
+silta5	sateenvarjo	arvioitava					10	1	vaaka	kujat			
+silta5	sateenvarjo	arvioitava					11	1	vaaka	isota			
+silta5	sateenvarjo	arvioitava					1	1	pysty	otsot			
+silta5	sateenvarjo	arvioitava					1	2	pysty	raato			
+silta5	sateenvarjo	arvioitava					1	3	pysty	sateenvarjo			
+silta5	sateenvarjo	arvioitava					1	4	pysty	itset			
+silta5	sateenvarjo	arvioitava					1	5	pysty	taita			
+silta5	sateenvarjo	arvioitava					7	1	pysty	lakki			
+silta5	sateenvarjo	arvioitava					7	2	pysty	avaus			
+silta5	sateenvarjo	arvioitava					7	4	pysty	arvat			
+silta5	sateenvarjo	arvioitava					7	5	pysty	taeta			
+silta5	lastenvaunu	yhteenveto	täytetty	0.239	33	25							
+silta5	lastenvaunu	umpikuja					7	4	pysty	ala.t	1		
+silta5	lastenvaunu	umpikuja					9	1	vaaka	uauli	1		
+silta5	lastenvaunu	umpikuja					7	1	pysty	an.e.	1		
+silta5	lastenvaunu	umpikuja					7	4	pysty	al.e.	1		
+silta5	lastenvaunu	umpikuja					7	2	pysty	rau..	1		
+silta5	lastenvaunu	umpikuja					10	1	vaaka	a.nis	1		
+silta5	lastenvaunu	umpikuja					7	4	pysty	alae.	1		
+silta5	lastenvaunu	umpikuja					7	5	pysty	tie..	1		
+silta5	lastenvaunu	umpikuja					7	4	pysty	al.et	1		
+silta5	lastenvaunu	umpikuja					7	5	pysty	tiita	1		
+silta5	lastenvaunu	arvioitava					1	1	vaaka	allas			
+silta5	lastenvaunu	arvioitava					2	1	vaaka	haara			
+silta5	lastenvaunu	arvioitava					3	1	vaaka	disko			
+silta5	lastenvaunu	arvioitava					4	1	vaaka	intit			
+silta5	lastenvaunu	arvioitava					5	1	vaaka	taeta			
+silta5	lastenvaunu	arvioitava					7	1	vaaka	arvat			
+silta5	lastenvaunu	arvioitava					8	1	vaaka	raana			
+silta5	lastenvaunu	arvioitava					9	1	vaaka	hauki			
+silta5	lastenvaunu	arvioitava					10	1	vaaka	onnet			
+silta5	lastenvaunu	arvioitava					11	1	vaaka	tuura			
+silta5	lastenvaunu	arvioitava					1	1	pysty	ahdit			
+silta5	lastenvaunu	arvioitava					1	2	pysty	laina			
+silta5	lastenvaunu	arvioitava					1	3	pysty	lastenvaunu			
+silta5	lastenvaunu	arvioitava					1	4	pysty	arkit			
+silta5	lastenvaunu	arvioitava					1	5	pysty	saota			
+silta5	lastenvaunu	arvioitava					7	1	pysty	arhot			
+silta5	lastenvaunu	arvioitava					7	2	pysty	raanu			
+silta5	lastenvaunu	arvioitava					7	4	pysty	anker			
+silta5	lastenvaunu	arvioitava					7	5	pysty	taita			
