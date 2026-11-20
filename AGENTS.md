@@ -8,6 +8,14 @@ Kerro ennen jokaista toimea, mitä aiot tehdä, ja odota käyttäjän nimenomais
 - Hyväksy perusmuotoiset sanat, myös adjektiivit, sekä nominatiivin monikot. Verbeistä hyväksytään vain perusmuoto (esim. HUOLIA), ei persoonamuotoja (esim. HUOLIT) edes preesensissä. Henkilö- ja brändinimet käyvät taivuttamattomina.
 - Tarkista kaikki vaaka- ja pystysuorat vastaukset, myös kokonaan risteyksistä syntyneet. Älä käytä samaa vastausta kahdesti. Sanalistaosuma ei yksin takaa oikeaa sanamuotoa.
 
+- Hylkää poikkeuksetta vastaukset, joiden ruudukkomuoto päättyy `SESTI`, myös `INSESTI`.
+
+## Ristikon esittäminen keskustelussa
+
+- Tulosta ristikko oletuksena tasalevyisessä koodilohkossa, isoilla kirjaimilla, rivinumeroilla ja sarakekirjaimilla.
+- Näytä suljetut ruudut välilyönteinä, älä #-merkkeinä. Lisää ruutujen väliin yksi välilyönti ja säilytä sarakkeiden kohdistus myös tyhjissä kohdissa.
+- Käyttäjä pyytää tarvittaessa muuta muotoilua. Älä muuta ruudukon sisältöä muotoilun yhteydessä.
+
 ## Sovelluksen rakenne
 
 - `ristikkotyokalu.py` on käyttöliittymän ja tekstiajon käynnistyspiste. `ristikkohaku.py` sisältää koepohjan, sanalistojen latauksen ja haun.

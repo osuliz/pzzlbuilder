@@ -5,6 +5,7 @@ from pathlib import Path
 from time import monotonic
 
 from pohjat import OLETUS, POHJAT
+from sanamuoto import ruudukkomuoto, sesti_loppuinen
 
 POHJA = POHJAT[OLETUS].rivit  # Vanhan rajapinnan oletuspohja
 LISTAT = ('kaikkisanat', 'monikot', 'erisnimet', 'brandit', 'eng_julkkikset', 'fi_julkkikset')
@@ -15,8 +16,8 @@ def lataa_sanat():
     for nimi in LISTAT:
         with Path(__file__).with_name(nimi + '.txt').open(encoding='utf-8-sig') as f:
             for rivi in f:
-                sana = rivi.strip().lower()
-                if len(sana) >= 4 and all(c in 'abcdefghijklmnopqrstuvwxyzåäö' for c in sana):
+                sana = ruudukkomuoto(rivi.strip())
+                if sana is not None and len(sana) >= 4:
                     sanat.add(sana)
     return sanat
 
@@ -85,19 +86,29 @@ class Mittarit:
     umpikujat: Counter = field(default_factory=Counter)
 
 
-STRATEGIAT = ('nykyinen', 'reunat')
+STRATEGIAT = ('nykyinen', 'reunat', 'pitkat', 'vaiheet')
 
 
-def ratkaise(pohja, sanat, *, mittarit=None, takaraja=None, strategia='nykyinen'):
+def ratkaise(pohja, sanat, *, mittarit=None, takaraja=None, strategia='nykyinen',
+             reunapaikat=(), paikkakiellot=None, pikakoe=None):
     """takaraja on monotonic()-kellon määrähetki. Aikakatkaisu nostaa TimeoutErrorin."""
     if strategia not in STRATEGIAT:
         raise ValueError(f'Tuntematon strategia: {strategia}')
     paikat = sanapaikat(pohja)
+    paikkakiellot = paikkakiellot or {}
+    if not set(paikkakiellot) <= {tuple(p) for p in paikat}:
+        raise ValueError('Sanakiellon pitää koskea kokonaista sanapaikkaa.')
+    # Reunapaikka annetaan kokonaisena koordinaattijonona, ei alueen osana.
+    reunat = {tuple(p) for p in reunapaikat}
+    if not reunat <= {tuple(p) for p in paikat}:
+        raise ValueError('Reunapaikan pitää olla kokonainen sanapaikka.')
+    ryhmat = [0 if len(p) >= 9 else 1 if tuple(p) in reunat else 2 for p in paikat]
     naapurit = [[] for _ in paikat]
     ruudut = {}
     pituudet = defaultdict(set)
     for sana in sanat:
-        pituudet[len(sana)].add(sana)
+        if not sesti_loppuinen(sana):
+            pituudet[len(sana)].add(sana)
     ehdokkaat = []
     for i, paikka in enumerate(paikat):
         lukot = []
@@ -109,9 +120,11 @@ def ratkaise(pohja, sanat, *, mittarit=None, takaraja=None, strategia='nykyinen'
             ruudut[r,c] = i,k
             if pohja[r][c] != '.':
                 lukot.append((k,pohja[r][c].lower()))
-        ehdokkaat.append({s for s in pituudet[len(paikka)] if all(s[k] == v for k,v in lukot)})
+        vaihtoehdot = {s for s in pituudet[len(paikka)] if all(s[k] == v for k,v in lukot)}
+        vaihtoehdot.difference_update(paikkakiellot.get(tuple(paikka), ()))
+        ehdokkaat.append(vaihtoehdot)
 
-    def hae(d, muutokset):
+    def hae(d, muutokset, raja, juuri=False):
         # Joukkoja ei muuteta paikallaan: haarat voivat jakaa ennallaan pysyvät joukot.
         jono = deque(muutokset)
         kirjattu = False
@@ -130,7 +143,7 @@ def ratkaise(pohja, sanat, *, mittarit=None, takaraja=None, strategia='nykyinen'
             mittarit.umpikujat[i, ''.join(maski)] += 1
 
         while jono:
-            if takaraja is not None and monotonic() >= takaraja:
+            if raja is not None and monotonic() >= raja:
                 raise TimeoutError('Haun aikaraja täyttyi.')
             i = jono.popleft()
             if not d[i]:
@@ -157,6 +170,12 @@ def ratkaise(pohja, sanat, *, mittarit=None, takaraja=None, strategia='nykyinen'
         if not avoimet:
             return [next(iter(v)) for v in d]
         def paikan_avain(i):
+            if strategia == 'vaiheet':
+                return (ryhmat[i], len(d[i]),
+                        -sum(len(d[j]) > 1 for j, _, _ in naapurit[i]))
+            if strategia == 'pitkat':
+                return (-len(paikat[i]), len(d[i]),
+                        -sum(len(d[j]) > 1 for j, _, _ in naapurit[i]))
             loppuja = 0
             if strategia == 'reunat':
                 loppuja = sum(len(d[j]) > 1 and l == len(paikat[j])-1
@@ -170,19 +189,35 @@ def ratkaise(pohja, sanat, *, mittarit=None, takaraja=None, strategia='nykyinen'
             maarat = [t[s[k]] for k,t in tuet]
             return -min(maarat, default=0), -sum(maarat), s
 
-        for sana in sorted(d[i], key=jarjestys):
+        rajattu = juuri and pikakoe is not None and len(paikat[i]) >= 9
+        keskenerainen = False
+        for n,sana in enumerate(sorted(d[i], key=jarjestys)):
+            haararaja = raja
+            if rajattu:
+                nyt = monotonic()
+                if n >= pikakoe[0] or (raja is not None and nyt >= raja):
+                    raise TimeoutError('Pikakokeen budjetti käytetty.')
+                haararaja = min(nyt + pikakoe[1], raja if raja is not None else float('inf'))
             if mittarit is not None:
                 mittarit.valinnat += 1
             haara = d.copy()
             haara[i] = {sana}
-            vastaus = hae(haara, [i])
+            try:
+                vastaus = hae(haara, [i], haararaja)
+            except TimeoutError:
+                if not rajattu:
+                    raise
+                keskenerainen = True
+                continue
             if vastaus is not None:
                 return vastaus
             if mittarit is not None:
                 mittarit.peruutukset += 1
+        if keskenerainen:
+            raise TimeoutError('Pikakoe jäi kesken.')
         return None
 
-    vastaus = hae(ehdokkaat, range(len(paikat)))
+    vastaus = hae(ehdokkaat, range(len(paikat)), takaraja, juuri=True)
     if vastaus is None:
         return None
     kartta = [list(r) for r in pohja]

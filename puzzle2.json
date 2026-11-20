@@ -1,0 +1,1301 @@
+{
+	"bgFilename": "bg4.png",
+	"columns": 10,
+	"rows": 17,
+	"imgwidth": 480,
+	"imgheight": 816,
+	"data": [
+		{
+			"id": "A1",
+			"type": "disabled",
+			"row": 0,
+			"col": 0,
+			"autofocus": false
+		},
+		{
+			"id": "B1",
+			"type": "disabled",
+			"row": 0,
+			"col": 1,
+			"autofocus": false
+		},
+		{
+			"id": "C1",
+			"type": "disabled",
+			"row": 0,
+			"col": 2,
+			"autofocus": false
+		},
+		{
+			"id": "D1",
+			"type": "disabled",
+			"row": 0,
+			"col": 3,
+			"autofocus": false
+		},
+		{
+			"id": "E1",
+			"type": "disabled",
+			"row": 0,
+			"col": 4,
+			"autofocus": false
+		},
+		{
+			"id": "F1",
+			"type": "disabled",
+			"row": 0,
+			"col": 5,
+			"autofocus": false
+		},
+		{
+			"id": "G1",
+			"type": "disabled",
+			"row": 0,
+			"col": 6,
+			"autofocus": false
+		},
+		{
+			"id": "H1",
+			"type": "disabled",
+			"row": 0,
+			"col": 7,
+			"autofocus": false
+		},
+		{
+			"id": "I1",
+			"type": "disabled",
+			"row": 0,
+			"col": 8,
+			"autofocus": false
+		},
+		{
+			"id": "J1",
+			"type": "disabled",
+			"row": 0,
+			"col": 9,
+			"autofocus": false
+		},
+		{
+			"id": "A2",
+			"type": "disabled",
+			"row": 1,
+			"col": 0,
+			"autofocus": false
+		},
+		{
+			"id": "B2",
+			"type": "disabled",
+			"row": 1,
+			"col": 1,
+			"autofocus": false
+		},
+		{
+			"id": "C2",
+			"type": "disabled",
+			"row": 1,
+			"col": 2,
+			"autofocus": false
+		},
+		{
+			"id": "D2",
+			"type": "disabled",
+			"row": 1,
+			"col": 3,
+			"autofocus": false
+		},
+		{
+			"id": "E2",
+			"type": "disabled",
+			"row": 1,
+			"col": 4,
+			"autofocus": false
+		},
+		{
+			"id": "F2",
+			"type": "disabled",
+			"row": 1,
+			"col": 5,
+			"autofocus": false
+		},
+		{
+			"id": "G2",
+			"type": "input",
+			"letter": "K",
+			"row": 1,
+			"col": 6,
+			"autofocus": false
+		},
+		{
+			"id": "H2",
+			"type": "input",
+			"letter": "O",
+			"row": 1,
+			"col": 7,
+			"autofocus": false
+		},
+		{
+			"id": "I2",
+			"type": "input",
+			"letter": "R",
+			"row": 1,
+			"col": 8,
+			"autofocus": false
+		},
+		{
+			"id": "J2",
+			"type": "input",
+			"letter": "I",
+			"row": 1,
+			"col": 9,
+			"autofocus": false
+		},
+		{
+			"id": "A3",
+			"type": "disabled",
+			"row": 2,
+			"col": 0,
+			"autofocus": false
+		},
+		{
+			"id": "B3",
+			"type": "disabled",
+			"row": 2,
+			"col": 1,
+			"autofocus": false
+		},
+		{
+			"id": "C3",
+			"type": "disabled",
+			"row": 2,
+			"col": 2,
+			"autofocus": false
+		},
+		{
+			"id": "D3",
+			"type": "disabled",
+			"row": 2,
+			"col": 3,
+			"autofocus": false
+		},
+		{
+			"id": "E3",
+			"type": "disabled",
+			"row": 2,
+			"col": 4,
+			"autofocus": false
+		},
+		{
+			"id": "F3",
+			"type": "disabled",
+			"row": 2,
+			"col": 5,
+			"autofocus": false
+		},
+		{
+			"id": "G3",
+			"type": "input",
+			"letter": "A",
+			"row": 2,
+			"col": 6,
+			"autofocus": false
+		},
+		{
+			"id": "H3",
+			"type": "input",
+			"letter": "L",
+			"row": 2,
+			"col": 7,
+			"autofocus": false
+		},
+		{
+			"id": "I3",
+			"type": "input",
+			"letter": "A",
+			"row": 2,
+			"col": 8,
+			"autofocus": false
+		},
+		{
+			"id": "J3",
+			"type": "input",
+			"letter": "N",
+			"row": 2,
+			"col": 9,
+			"autofocus": false
+		},
+		{
+			"id": "A4",
+			"type": "disabled",
+			"row": 3,
+			"col": 0,
+			"autofocus": false
+		},
+		{
+			"id": "B4",
+			"type": "disabled",
+			"row": 3,
+			"col": 1,
+			"autofocus": false
+		},
+		{
+			"id": "C4",
+			"type": "disabled",
+			"row": 3,
+			"col": 2,
+			"autofocus": false
+		},
+		{
+			"id": "D4",
+			"type": "disabled",
+			"row": 3,
+			"col": 3,
+			"autofocus": false
+		},
+		{
+			"id": "E4",
+			"type": "disabled",
+			"row": 3,
+			"col": 4,
+			"autofocus": false
+		},
+		{
+			"id": "F4",
+			"type": "disabled",
+			"row": 3,
+			"col": 5,
+			"autofocus": false
+		},
+		{
+			"id": "G4",
+			"type": "input",
+			"letter": "T",
+			"row": 3,
+			"col": 6,
+			"autofocus": false
+		},
+		{
+			"id": "H4",
+			"type": "input",
+			"letter": "I",
+			"row": 3,
+			"col": 7,
+			"autofocus": false
+		},
+		{
+			"id": "I4",
+			"type": "input",
+			"letter": "I",
+			"row": 3,
+			"col": 8,
+			"autofocus": false
+		},
+		{
+			"id": "J4",
+			"type": "input",
+			"letter": "T",
+			"row": 3,
+			"col": 9,
+			"autofocus": false
+		},
+		{
+			"id": "A5",
+			"type": "disabled",
+			"row": 4,
+			"col": 0,
+			"autofocus": false
+		},
+		{
+			"id": "B5",
+			"type": "disabled",
+			"row": 4,
+			"col": 1,
+			"autofocus": false
+		},
+		{
+			"id": "C5",
+			"type": "disabled",
+			"row": 4,
+			"col": 2,
+			"autofocus": false
+		},
+		{
+			"id": "D5",
+			"type": "disabled",
+			"row": 4,
+			"col": 3,
+			"autofocus": false
+		},
+		{
+			"id": "E5",
+			"type": "disabled",
+			"row": 4,
+			"col": 4,
+			"autofocus": false
+		},
+		{
+			"id": "F5",
+			"type": "disabled",
+			"row": 4,
+			"col": 5,
+			"autofocus": false
+		},
+		{
+			"id": "G5",
+			"type": "input",
+			"letter": "K",
+			"row": 4,
+			"col": 6,
+			"autofocus": false
+		},
+		{
+			"id": "H5",
+			"type": "input",
+			"letter": "O",
+			"row": 4,
+			"col": 7,
+			"autofocus": false
+		},
+		{
+			"id": "I5",
+			"type": "input",
+			"letter": "K",
+			"row": 4,
+			"col": 8,
+			"autofocus": false
+		},
+		{
+			"id": "J5",
+			"type": "input",
+			"letter": "O",
+			"row": 4,
+			"col": 9,
+			"autofocus": false
+		},
+		{
+			"id": "A6",
+			"type": "disabled",
+			"row": 5,
+			"col": 0,
+			"autofocus": false
+		},
+		{
+			"id": "B6",
+			"type": "input",
+			"letter": "S",
+			"row": 5,
+			"col": 1,
+			"autofocus": false
+		},
+		{
+			"id": "C6",
+			"type": "input",
+			"letter": "A",
+			"row": 5,
+			"col": 2,
+			"autofocus": false
+		},
+		{
+			"id": "D6",
+			"type": "input",
+			"letter": "P",
+			"row": 5,
+			"col": 3,
+			"autofocus": false
+		},
+		{
+			"id": "E6",
+			"type": "input",
+			"letter": "A",
+			"row": 5,
+			"col": 4,
+			"autofocus": false
+		},
+		{
+			"id": "F6",
+			"type": "input",
+			"letter": "R",
+			"row": 5,
+			"col": 5,
+			"autofocus": false
+		},
+		{
+			"id": "G6",
+			"type": "input",
+			"letter": "O",
+			"row": 5,
+			"col": 6,
+			"autofocus": false
+		},
+		{
+			"id": "H6",
+			"type": "disabled",
+			"row": 5,
+			"col": 7,
+			"autofocus": false
+		},
+		{
+			"id": "I6",
+			"type": "input",
+			"letter": "A",
+			"row": 5,
+			"col": 8,
+			"autofocus": false
+		},
+		{
+			"id": "J6",
+			"type": "disabled",
+			"row": 5,
+			"col": 9,
+			"autofocus": false
+		},
+		{
+			"id": "A7",
+			"type": "disabled",
+			"row": 6,
+			"col": 0,
+			"autofocus": false
+		},
+		{
+			"id": "B7",
+			"type": "input",
+			"letter": "N",
+			"row": 6,
+			"col": 1,
+			"autofocus": false
+		},
+		{
+			"id": "C7",
+			"type": "input",
+			"letter": "E",
+			"row": 6,
+			"col": 2,
+			"autofocus": false
+		},
+		{
+			"id": "D7",
+			"type": "input",
+			"letter": "I",
+			"row": 6,
+			"col": 3,
+			"autofocus": false
+		},
+		{
+			"id": "E7",
+			"type": "input",
+			"letter": "L",
+			"row": 6,
+			"col": 4,
+			"autofocus": false
+		},
+		{
+			"id": "F7",
+			"type": "disabled",
+			"row": 6,
+			"col": 5,
+			"autofocus": false
+		},
+		{
+			"id": "G7",
+			"type": "input",
+			"letter": "A",
+			"row": 6,
+			"col": 6,
+			"autofocus": false
+		},
+		{
+			"id": "H7",
+			"type": "input",
+			"letter": "A",
+			"row": 6,
+			"col": 7,
+			"autofocus": false
+		},
+		{
+			"id": "I7",
+			"type": "input",
+			"letter": "S",
+			"row": 6,
+			"col": 8,
+			"autofocus": false
+		},
+		{
+			"id": "J7",
+			"type": "input",
+			"letter": "A",
+			"row": 6,
+			"col": 9,
+			"autofocus": false
+		},
+		{
+			"id": "A8",
+			"type": "disabled",
+			"row": 7,
+			"col": 0,
+			"autofocus": false
+		},
+		{
+			"id": "B8",
+			"type": "input",
+			"letter": "A",
+			"row": 7,
+			"col": 1,
+			"autofocus": false
+		},
+		{
+			"id": "C8",
+			"type": "input",
+			"letter": "R",
+			"row": 7,
+			"col": 2,
+			"autofocus": false
+		},
+		{
+			"id": "D8",
+			"type": "input",
+			"letter": "K",
+			"row": 7,
+			"col": 3,
+			"autofocus": false
+		},
+		{
+			"id": "E8",
+			"type": "input",
+			"letter": "A",
+			"row": 7,
+			"col": 4,
+			"autofocus": false
+		},
+		{
+			"id": "F8",
+			"type": "disabled",
+			"row": 7,
+			"col": 5,
+			"autofocus": false
+		},
+		{
+			"id": "G8",
+			"type": "disabled",
+			"row": 7,
+			"col": 6,
+			"autofocus": false
+		},
+		{
+			"id": "H8",
+			"type": "input",
+			"letter": "R",
+			"row": 7,
+			"col": 7,
+			"autofocus": false
+		},
+		{
+			"id": "I8",
+			"type": "disabled",
+			"row": 7,
+			"col": 8,
+			"autofocus": false
+		},
+		{
+			"id": "J8",
+			"type": "input",
+			"letter": "H",
+			"row": 7,
+			"col": 9,
+			"autofocus": false
+		},
+		{
+			"id": "A9",
+			"type": "disabled",
+			"row": 8,
+			"col": 0,
+			"autofocus": false
+		},
+		{
+			"id": "B9",
+			"type": "input",
+			"letter": "P",
+			"row": 8,
+			"col": 1,
+			"autofocus": false
+		},
+		{
+			"id": "C9",
+			"type": "input",
+			"letter": "O",
+			"row": 8,
+			"col": 2,
+			"autofocus": false
+		},
+		{
+			"id": "D9",
+			"type": "input",
+			"letter": "S",
+			"row": 8,
+			"col": 3,
+			"autofocus": false
+		},
+		{
+			"id": "E9",
+			"type": "input",
+			"letter": "T",
+			"row": 8,
+			"col": 4,
+			"autofocus": false
+		},
+		{
+			"id": "F9",
+			"type": "disabled",
+			"row": 8,
+			"col": 5,
+			"autofocus": false
+		},
+		{
+			"id": "G9",
+			"type": "input",
+			"letter": "P",
+			"row": 8,
+			"col": 6,
+			"autofocus": false
+		},
+		{
+			"id": "H9",
+			"type": "input",
+			"letter": "A",
+			"row": 8,
+			"col": 7,
+			"autofocus": false
+		},
+		{
+			"id": "I9",
+			"type": "input",
+			"letter": "O",
+			"row": 8,
+			"col": 8,
+			"autofocus": false
+		},
+		{
+			"id": "J9",
+			"type": "input",
+			"letter": "T",
+			"row": 8,
+			"col": 9,
+			"autofocus": false
+		},
+		{
+			"id": "A10",
+			"type": "disabled",
+			"row": 9,
+			"col": 0,
+			"autofocus": false
+		},
+		{
+			"id": "B10",
+			"type": "disabled",
+			"row": 9,
+			"col": 1,
+			"autofocus": false
+		},
+		{
+			"id": "C10",
+			"type": "disabled",
+			"row": 9,
+			"col": 2,
+			"autofocus": false
+		},
+		{
+			"id": "D10",
+			"type": "input",
+			"letter": "E",
+			"row": 9,
+			"col": 3,
+			"autofocus": false
+		},
+		{
+			"id": "E10",
+			"type": "disabled",
+			"row": 9,
+			"col": 4,
+			"autofocus": false
+		},
+		{
+			"id": "F10",
+			"type": "disabled",
+			"row": 9,
+			"col": 5,
+			"autofocus": false
+		},
+		{
+			"id": "G10",
+			"type": "input",
+			"letter": "A",
+			"row": 9,
+			"col": 6,
+			"autofocus": false
+		},
+		{
+			"id": "H10",
+			"type": "input",
+			"letter": "L",
+			"row": 9,
+			"col": 7,
+			"autofocus": false
+		},
+		{
+			"id": "I10",
+			"type": "input",
+			"letter": "L",
+			"row": 9,
+			"col": 8,
+			"autofocus": false
+		},
+		{
+			"id": "J10",
+			"type": "input",
+			"letter": "I",
+			"row": 9,
+			"col": 9,
+			"autofocus": false
+		},
+		{
+			"id": "A11",
+			"type": "disabled",
+			"row": 10,
+			"col": 0,
+			"autofocus": false
+		},
+		{
+			"id": "B11",
+			"type": "input",
+			"letter": "N",
+			"row": 10,
+			"col": 1,
+			"autofocus": false
+		},
+		{
+			"id": "C11",
+			"type": "input",
+			"letter": "A",
+			"row": 10,
+			"col": 2,
+			"autofocus": false
+		},
+		{
+			"id": "D11",
+			"type": "input",
+			"letter": "L",
+			"row": 10,
+			"col": 3,
+			"autofocus": false
+		},
+		{
+			"id": "E11",
+			"type": "input",
+			"letter": "L",
+			"row": 10,
+			"col": 4,
+			"autofocus": false
+		},
+		{
+			"id": "F11",
+			"type": "input",
+			"letter": "E",
+			"row": 10,
+			"col": 5,
+			"autofocus": false
+		},
+		{
+			"id": "G11",
+			"type": "input",
+			"letter": "T",
+			"row": 10,
+			"col": 6,
+			"autofocus": false
+		},
+		{
+			"id": "H11",
+			"type": "disabled",
+			"row": 10,
+			"col": 7,
+			"autofocus": false
+		},
+		{
+			"id": "I11",
+			"type": "input",
+			"letter": "E",
+			"row": 10,
+			"col": 8,
+			"autofocus": false
+		},
+		{
+			"id": "J11",
+			"type": "disabled",
+			"row": 10,
+			"col": 9,
+			"autofocus": false
+		},
+		{
+			"id": "A12",
+			"type": "disabled",
+			"row": 11,
+			"col": 0,
+			"autofocus": false
+		},
+		{
+			"id": "B12",
+			"type": "input",
+			"letter": "A",
+			"row": 11,
+			"col": 1,
+			"autofocus": false
+		},
+		{
+			"id": "C12",
+			"type": "disabled",
+			"row": 11,
+			"col": 2,
+			"autofocus": false
+		},
+		{
+			"id": "D12",
+			"type": "input",
+			"letter": "I",
+			"row": 11,
+			"col": 3,
+			"autofocus": false
+		},
+		{
+			"id": "E12",
+			"type": "disabled",
+			"row": 11,
+			"col": 4,
+			"autofocus": false
+		},
+		{
+			"id": "F12",
+			"type": "disabled",
+			"row": 11,
+			"col": 5,
+			"autofocus": false
+		},
+		{
+			"id": "G12",
+			"type": "input",
+			"letter": "A",
+			"row": 11,
+			"col": 6,
+			"autofocus": false
+		},
+		{
+			"id": "H12",
+			"type": "input",
+			"letter": "L",
+			"row": 11,
+			"col": 7,
+			"autofocus": false
+		},
+		{
+			"id": "I12",
+			"type": "input",
+			"letter": "T",
+			"row": 11,
+			"col": 8,
+			"autofocus": false
+		},
+		{
+			"id": "J12",
+			"type": "input",
+			"letter": "A",
+			"row": 11,
+			"col": 9,
+			"autofocus": false
+		},
+		{
+			"id": "A13",
+			"type": "disabled",
+			"row": 12,
+			"col": 0,
+			"autofocus": false
+		},
+		{
+			"id": "B13",
+			"type": "input",
+			"letter": "A",
+			"row": 12,
+			"col": 1,
+			"autofocus": false
+		},
+		{
+			"id": "C13",
+			"type": "input",
+			"letter": "M",
+			"row": 12,
+			"col": 2,
+			"autofocus": false
+		},
+		{
+			"id": "D13",
+			"type": "input",
+			"letter": "M",
+			"row": 12,
+			"col": 3,
+			"autofocus": false
+		},
+		{
+			"id": "E13",
+			"type": "input",
+			"letter": "U",
+			"row": 12,
+			"col": 4,
+			"autofocus": false
+		},
+		{
+			"id": "F13",
+			"type": "disabled",
+			"row": 12,
+			"col": 5,
+			"autofocus": false
+		},
+		{
+			"id": "G13",
+			"type": "disabled",
+			"row": 12,
+			"col": 6,
+			"autofocus": false
+		},
+		{
+			"id": "H13",
+			"type": "input",
+			"letter": "I",
+			"row": 12,
+			"col": 7,
+			"autofocus": false
+		},
+		{
+			"id": "I13",
+			"type": "disabled",
+			"row": 12,
+			"col": 8,
+			"autofocus": false
+		},
+		{
+			"id": "J13",
+			"type": "input",
+			"letter": "F",
+			"row": 12,
+			"col": 9,
+			"autofocus": false
+		},
+		{
+			"id": "A14",
+			"type": "disabled",
+			"row": 13,
+			"col": 0,
+			"autofocus": false
+		},
+		{
+			"id": "B14",
+			"type": "input",
+			"letter": "M",
+			"row": 13,
+			"col": 1,
+			"autofocus": false
+		},
+		{
+			"id": "C14",
+			"type": "input",
+			"letter": "Y",
+			"row": 13,
+			"col": 2,
+			"autofocus": false
+		},
+		{
+			"id": "D14",
+			"type": "input",
+			"letter": "Ö",
+			"row": 13,
+			"col": 3,
+			"autofocus": false
+		},
+		{
+			"id": "E14",
+			"type": "input",
+			"letter": "S",
+			"row": 13,
+			"col": 4,
+			"autofocus": false
+		},
+		{
+			"id": "F14",
+			"type": "disabled",
+			"row": 13,
+			"col": 5,
+			"autofocus": false
+		},
+		{
+			"id": "G14",
+			"type": "input",
+			"letter": "V",
+			"row": 13,
+			"col": 6,
+			"autofocus": false
+		},
+		{
+			"id": "H14",
+			"type": "input",
+			"letter": "I",
+			"row": 13,
+			"col": 7,
+			"autofocus": false
+		},
+		{
+			"id": "I14",
+			"type": "input",
+			"letter": "H",
+			"row": 13,
+			"col": 8,
+			"autofocus": false
+		},
+		{
+			"id": "J14",
+			"type": "input",
+			"letter": "A",
+			"row": 13,
+			"col": 9,
+			"autofocus": false
+		},
+		{
+			"id": "A15",
+			"type": "disabled",
+			"row": 14,
+			"col": 0,
+			"autofocus": false
+		},
+		{
+			"id": "B15",
+			"type": "input",
+			"letter": "I",
+			"row": 14,
+			"col": 1,
+			"autofocus": false
+		},
+		{
+			"id": "C15",
+			"type": "input",
+			"letter": "T",
+			"row": 14,
+			"col": 2,
+			"autofocus": false
+		},
+		{
+			"id": "D15",
+			"type": "input",
+			"letter": "S",
+			"row": 14,
+			"col": 3,
+			"autofocus": false
+		},
+		{
+			"id": "E15",
+			"type": "input",
+			"letter": "E",
+			"row": 14,
+			"col": 4,
+			"autofocus": false
+		},
+		{
+			"id": "F15",
+			"type": "input",
+			"letter": "R",
+			"row": 14,
+			"col": 5,
+			"autofocus": false
+		},
+		{
+			"id": "G15",
+			"type": "input",
+			"letter": "A",
+			"row": 14,
+			"col": 6,
+			"autofocus": false
+		},
+		{
+			"id": "H15",
+			"type": "input",
+			"letter": "K",
+			"row": 14,
+			"col": 7,
+			"autofocus": false
+		},
+		{
+			"id": "I15",
+			"type": "input",
+			"letter": "A",
+			"row": 14,
+			"col": 8,
+			"autofocus": false
+		},
+		{
+			"id": "J15",
+			"type": "input",
+			"letter": "S",
+			"row": 14,
+			"col": 9,
+			"autofocus": false
+		},
+		{
+			"id": "A16",
+			"type": "disabled",
+			"row": 15,
+			"col": 0,
+			"autofocus": false
+		},
+		{
+			"id": "B16",
+			"type": "input",
+			"letter": "O",
+			"row": 15,
+			"col": 1,
+			"autofocus": false
+		},
+		{
+			"id": "C16",
+			"type": "input",
+			"letter": "T",
+			"row": 15,
+			"col": 2,
+			"autofocus": false
+		},
+		{
+			"id": "D16",
+			"type": "input",
+			"letter": "S",
+			"row": 15,
+			"col": 3,
+			"autofocus": false
+		},
+		{
+			"id": "E16",
+			"type": "input",
+			"letter": "A",
+			"row": 15,
+			"col": 4,
+			"autofocus": false
+		},
+		{
+			"id": "F16",
+			"type": "disabled",
+			"row": 15,
+			"col": 5,
+			"autofocus": false
+		},
+		{
+			"id": "G16",
+			"type": "input",
+			"letter": "A",
+			"row": 15,
+			"col": 6,
+			"autofocus": false
+		},
+		{
+			"id": "H16",
+			"type": "input",
+			"letter": "A",
+			"row": 15,
+			"col": 7,
+			"autofocus": false
+		},
+		{
+			"id": "I16",
+			"type": "input",
+			"letter": "R",
+			"row": 15,
+			"col": 8,
+			"autofocus": false
+		},
+		{
+			"id": "J16",
+			"type": "input",
+			"letter": "I",
+			"row": 15,
+			"col": 9,
+			"autofocus": false
+		},
+		{
+			"id": "A17",
+			"type": "disabled",
+			"row": 16,
+			"col": 0,
+			"autofocus": false
+		},
+		{
+			"id": "B17",
+			"type": "input",
+			"letter": "T",
+			"row": 16,
+			"col": 1,
+			"autofocus": false
+		},
+		{
+			"id": "C17",
+			"type": "input",
+			"letter": "Y",
+			"row": 16,
+			"col": 2,
+			"autofocus": false
+		},
+		{
+			"id": "D17",
+			"type": "input",
+			"letter": "Ö",
+			"row": 16,
+			"col": 3,
+			"autofocus": false
+		},
+		{
+			"id": "E17",
+			"type": "input",
+			"letter": "T",
+			"row": 16,
+			"col": 4,
+			"autofocus": false
+		},
+		{
+			"id": "F17",
+			"type": "disabled",
+			"row": 16,
+			"col": 5,
+			"autofocus": false
+		},
+		{
+			"id": "G17",
+			"type": "input",
+			"letter": "N",
+			"row": 16,
+			"col": 6,
+			"autofocus": false
+		},
+		{
+			"id": "H17",
+			"type": "input",
+			"letter": "A",
+			"row": 16,
+			"col": 7,
+			"autofocus": false
+		},
+		{
+			"id": "I17",
+			"type": "input",
+			"letter": "T",
+			"row": 16,
+			"col": 8,
+			"autofocus": false
+		},
+		{
+			"id": "J17",
+			"type": "input",
+			"letter": "A",
+			"row": 16,
+			"col": 9,
+			"autofocus": false
+		}
+	]
+}

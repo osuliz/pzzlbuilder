@@ -3,6 +3,7 @@ import argparse
 from queue import Empty, Queue
 from threading import Thread
 
+from sanamuoto import sesti_loppuinen
 from pohjat import POHJAT, OLETUS
 from ristikkohaku import lataa_sanat, ratkaise
 
@@ -66,6 +67,8 @@ if __name__ == '__main__':
     parser.add_argument('silta', nargs='?', type=str.lower, help='lukittu siltasana (silta4: 9, silta5: 11 kirjainta)')
     args = parser.parse_args()
     try:
+        if args.silta and sesti_loppuinen(args.silta):
+            raise ValueError('SESTI-loppuinen siltasana ei ole sallittu.')
         pohja = POHJAT[args.pohja].lukitse(args.silta)
     except ValueError as virhe:
         parser.error(str(virhe))

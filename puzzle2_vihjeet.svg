@@ -1,0 +1,603 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1700" width="1000" height="1700">
+  <title>Ristikko – sisäiset tekstivihjeet</title>
+  <desc>10 × 17 ruutua. Vihjeet ovat sanojen edellä. Pääkuva puuttuu. OLUT-korjaus mukana.</desc>
+  <defs>
+    <marker id="nuoli" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#173c53" />
+    </marker>
+    <clipPath id="clip-1-5-0">
+      <rect x="504" y="103.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-2-5-0">
+      <rect x="504" y="203.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-3-5-0">
+      <rect x="504" y="303.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-4-5-0">
+      <rect x="504" y="403.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-5-0-0">
+      <rect x="4" y="503.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-6-0-0">
+      <rect x="4" y="603.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-6-5-0">
+      <rect x="504" y="603.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-7-0-0">
+      <rect x="4" y="703.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-8-0-0">
+      <rect x="4" y="803.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-8-5-0">
+      <rect x="504" y="803.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-9-5-0">
+      <rect x="504" y="903.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-10-0-0">
+      <rect x="4" y="1003.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-11-5-0">
+      <rect x="504" y="1103.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-12-0-0">
+      <rect x="4" y="1203.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-13-0-0">
+      <rect x="4" y="1303.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-13-5-0">
+      <rect x="504" y="1303.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-14-0-0">
+      <rect x="4" y="1403.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-15-0-0">
+      <rect x="4" y="1503.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-15-5-0">
+      <rect x="504" y="1503.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-16-0-0">
+      <rect x="4" y="1603.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-16-5-0">
+      <rect x="504" y="1603.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-0-6-0">
+      <rect x="604" y="3.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-0-7-0">
+      <rect x="704" y="3.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-0-8-0">
+      <rect x="804" y="3.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-0-9-0">
+      <rect x="904" y="3.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-4-1-0">
+      <rect x="104" y="403.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-4-2-0">
+      <rect x="204" y="403.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-4-3-0">
+      <rect x="304" y="403.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-4-4-0">
+      <rect x="404" y="403.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-5-7-0">
+      <rect x="704" y="503.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-5-9-0">
+      <rect x="904" y="503.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-7-6-0">
+      <rect x="604" y="703.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-7-8-0">
+      <rect x="804" y="703.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-9-1-0">
+      <rect x="104" y="903.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-10-7-0">
+      <rect x="704" y="1003.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-10-9-0">
+      <rect x="904" y="1003.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-11-2-0">
+      <rect x="204" y="1103.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-11-4-0">
+      <rect x="404" y="1103.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-12-6-0">
+      <rect x="604" y="1203.0" width="92" height="87.0" />
+    </clipPath>
+    <clipPath id="clip-12-8-0">
+      <rect x="804" y="1203.0" width="92" height="87.0" />
+    </clipPath>
+  </defs>
+  <rect x="0" y="0" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="100" y="0" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="200" y="0" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="300" y="0" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="400" y="0" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="500" y="0" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="600" y="0" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="700" y="0" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="800" y="0" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="900" y="0" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="0" y="100" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="100" y="100" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="200" y="100" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="300" y="100" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="400" y="100" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="500" y="100" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="600" y="100" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="700" y="100" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="800" y="100" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="900" y="100" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="0" y="200" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="100" y="200" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="200" y="200" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="300" y="200" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="400" y="200" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="500" y="200" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="600" y="200" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="700" y="200" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="800" y="200" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="900" y="200" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="0" y="300" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="100" y="300" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="200" y="300" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="300" y="300" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="400" y="300" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="500" y="300" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="600" y="300" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="700" y="300" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="800" y="300" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="900" y="300" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="0" y="400" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="100" y="400" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="200" y="400" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="300" y="400" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="400" y="400" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="500" y="400" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="600" y="400" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="700" y="400" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="800" y="400" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="900" y="400" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="0" y="500" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="100" y="500" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="200" y="500" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="300" y="500" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="400" y="500" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="500" y="500" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="600" y="500" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="700" y="500" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="800" y="500" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="900" y="500" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="0" y="600" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="100" y="600" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="200" y="600" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="300" y="600" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="400" y="600" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="500" y="600" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="600" y="600" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="700" y="600" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="800" y="600" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="900" y="600" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="0" y="700" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="100" y="700" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="200" y="700" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="300" y="700" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="400" y="700" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="500" y="700" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="600" y="700" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="700" y="700" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="800" y="700" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="900" y="700" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="0" y="800" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="100" y="800" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="200" y="800" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="300" y="800" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="400" y="800" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="500" y="800" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="600" y="800" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="700" y="800" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="800" y="800" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="900" y="800" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="0" y="900" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="100" y="900" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="200" y="900" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="300" y="900" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="400" y="900" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="500" y="900" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="600" y="900" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="700" y="900" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="800" y="900" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="900" y="900" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="0" y="1000" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="100" y="1000" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="200" y="1000" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="300" y="1000" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="400" y="1000" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="500" y="1000" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="600" y="1000" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="700" y="1000" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="800" y="1000" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="900" y="1000" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="0" y="1100" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="100" y="1100" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="200" y="1100" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="300" y="1100" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="400" y="1100" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="500" y="1100" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="600" y="1100" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="700" y="1100" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="800" y="1100" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="900" y="1100" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="0" y="1200" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="100" y="1200" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="200" y="1200" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="300" y="1200" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="400" y="1200" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="500" y="1200" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="600" y="1200" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="700" y="1200" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="800" y="1200" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="900" y="1200" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="0" y="1300" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="100" y="1300" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="200" y="1300" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="300" y="1300" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="400" y="1300" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="500" y="1300" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="600" y="1300" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="700" y="1300" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="800" y="1300" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="900" y="1300" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="0" y="1400" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="100" y="1400" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="200" y="1400" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="300" y="1400" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="400" y="1400" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="500" y="1400" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="600" y="1400" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="700" y="1400" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="800" y="1400" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="900" y="1400" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="0" y="1500" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="100" y="1500" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="200" y="1500" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="300" y="1500" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="400" y="1500" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="500" y="1500" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="600" y="1500" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="700" y="1500" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="800" y="1500" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="900" y="1500" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="0" y="1600" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="100" y="1600" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="200" y="1600" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="300" y="1600" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="400" y="1600" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="500" y="1600" width="100" height="100" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <rect x="600" y="1600" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="700" y="1600" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="800" y="1600" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="900" y="1600" width="100" height="100" fill="white" stroke="#243441" stroke-width="1.5" />
+  <rect x="0" y="0" width="500" height="400" fill="#edf1f3" stroke="#243441" stroke-width="1.5" />
+  <text x="250" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#687984">PÄÄKUVA-ALUE</text>
+  <text x="250" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#687984">Kuva lisätään myöhemmin</text>
+  <g id="vihje-kori">
+    <title>KALJA- – vaaka</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-1-5-0)">
+      <tspan x="550" y="153.0">KALJA-</tspan>
+    </text>
+    <path d="M 587 192.0 L 605 192.0" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-alan">
+    <title>SEBUN RAKAS – vaaka</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-2-5-0)">
+      <tspan x="550" y="241.0">SEBUN</tspan>
+      <tspan x="550" y="265.0">RAKAS</tspan>
+    </text>
+    <path d="M 587 292.0 L 605 292.0" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-tiit">
+    <title>ruohoon kiinni – vaaka</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-3-5-0)">
+      <tspan x="550" y="341.0">ruohoon</tspan>
+      <tspan x="550" y="365.0">kiinni</tspan>
+    </text>
+    <path d="M 587 392.0 L 605 392.0" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-koko">
+    <title>KUPPI- – vaaka</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-4-5-0)">
+      <tspan x="550" y="453.0">KUPPI-</tspan>
+    </text>
+    <path d="M 587 492.0 L 605 492.0" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-saparo">
+    <title>-NIEKKA – vaaka</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-5-0-0)">
+      <tspan x="50" y="553.0">-NIEKKA</tspan>
+    </text>
+    <path d="M 87 592.0 L 105 592.0" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-neil">
+    <title>PEART – vaaka</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-6-0-0)">
+      <tspan x="50" y="653.0">PEART</tspan>
+    </text>
+    <path d="M 87 692.0 L 105 692.0" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-aasa">
+    <title>JUMALA – vaaka</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-6-5-0)">
+      <tspan x="550" y="653.0">JUMALA</tspan>
+    </text>
+    <path d="M 587 692.0 L 605 692.0" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-arka">
+    <title>SENSITIIVINEN – vaaka</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-7-0-0)">
+      <tspan x="50" y="741.0">SENSITI</tspan>
+      <tspan x="50" y="765.0">IVINEN</tspan>
+    </text>
+    <path d="M 87 792.0 L 105 792.0" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-post">
+    <title>- MORTEM – vaaka</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-8-0-0)">
+      <tspan x="50" y="829.0">-</tspan>
+      <tspan x="50" y="853.0">MORTE</tspan>
+      <tspan x="50" y="877.0">M</tspan>
+    </text>
+    <path d="M 87 892.0 L 105 892.0" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-paot">
+    <title>VANKILASTA – vaaka</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-8-5-0)">
+      <tspan x="550" y="841.0">VANKIL</tspan>
+      <tspan x="550" y="865.0">ASTA</tspan>
+    </text>
+    <path d="M 587 892.0 L 605 892.0" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-alli">
+    <title>1. nainen / lintu – vaaka</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-9-5-0)">
+      <tspan x="550" y="929.0">1.</tspan>
+      <tspan x="550" y="953.0">nainen /</tspan>
+      <tspan x="550" y="977.0">lintu</tspan>
+    </text>
+    <path d="M 587 992.0 L 605 992.0" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-nallet">
+    <title>"kolmoiset" – vaaka</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-10-0-0)">
+      <tspan x="50" y="1041.0">"kolmois</tspan>
+      <tspan x="50" y="1065.0">et"</tspan>
+    </text>
+    <path d="M 87 1092.0 L 105 1092.0" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-alta">
+    <title>- VISTA – vaaka</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-11-5-0)">
+      <tspan x="550" y="1153.0">- VISTA</tspan>
+    </text>
+    <path d="M 587 1192.0 L 605 1192.0" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-ammu">
+    <title>"lehmä" – vaaka</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-12-0-0)">
+      <tspan x="50" y="1253.0">"lehmä"</tspan>
+    </text>
+    <path d="M 87 1292.0 L 105 1292.0" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-myös">
+    <title>Lisäksi – vaaka</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-13-0-0)">
+      <tspan x="50" y="1353.0">Lisäksi</tspan>
+    </text>
+    <path d="M 87 1392.0 L 105 1392.0" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-viha">
+    <title>h8 – vaaka</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-13-5-0)">
+      <tspan x="550" y="1353.0">h8</tspan>
+    </text>
+    <path d="M 587 1392.0 L 605 1392.0" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-itserakas">
+    <title>NARKISSOS – vaaka</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-14-0-0)">
+      <tspan x="50" y="1441.0">NARKIS</tspan>
+      <tspan x="50" y="1465.0">SOS</tspan>
+    </text>
+    <path d="M 87 1492.0 L 105 1492.0" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-otsa">
+    <title>NUPISSA – vaaka</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-15-0-0)">
+      <tspan x="50" y="1541.0">NUPISS</tspan>
+      <tspan x="50" y="1565.0">A</tspan>
+    </text>
+    <path d="M 87 1592.0 L 105 1592.0" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-aari">
+    <title>ala – vaaka</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-15-5-0)">
+      <tspan x="550" y="1553.0">ala</tspan>
+    </text>
+    <path d="M 587 1592.0 L 605 1592.0" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-työt">
+    <title>hommat – vaaka</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-16-0-0)">
+      <tspan x="50" y="1653.0">hommat</tspan>
+    </text>
+    <path d="M 87 1692.0 L 105 1692.0" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-nata">
+    <title>ruohokasvi – vaaka</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-16-5-0)">
+      <tspan x="550" y="1641.0">ruohoka</tspan>
+      <tspan x="550" y="1665.0">svi</tspan>
+    </text>
+    <path d="M 587 1692.0 L 605 1692.0" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-katkoa">
+    <title>poikkaista – pysty</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-0-6-0)">
+      <tspan x="650" y="41.0">poikkais</tspan>
+      <tspan x="650" y="65.0">ta</tspan>
+    </text>
+    <path d="M 692 92.0 L 696 92.0 L 696 106" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-olio">
+    <title>otus – pysty</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-0-7-0)">
+      <tspan x="750" y="53.0">otus</tspan>
+    </text>
+    <path d="M 792 92.0 L 796 92.0 L 796 106" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-raikas">
+    <title>freesi – pysty</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-0-8-0)">
+      <tspan x="850" y="53.0">freesi</tspan>
+    </text>
+    <path d="M 892 92.0 L 896 92.0 L 896 106" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-into">
+    <title>palo – pysty</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-0-9-0)">
+      <tspan x="950" y="53.0">palo</tspan>
+    </text>
+    <path d="M 992 92.0 L 996 92.0 L 996 106" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-snap">
+    <title>-CHAT – pysty</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-4-1-0)">
+      <tspan x="150" y="453.0">-CHAT</tspan>
+    </text>
+    <path d="M 192 492.0 L 196 492.0 L 196 506" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-aero">
+    <title>Saab-malli – pysty</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-4-2-0)">
+      <tspan x="250" y="441.0">Saab-m</tspan>
+      <tspan x="250" y="465.0">alli</tspan>
+    </text>
+    <path d="M 292 492.0 L 296 492.0 L 296 506" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-pikselimössö">
+    <title>Pääkuva – pysty</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-4-3-0)">
+      <tspan x="350" y="453.0" />
+    </text>
+    <path d="M 392 492.0 L 396 492.0 L 396 506" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-alat">
+    <title>ha, a – pysty</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-4-4-0)">
+      <tspan x="450" y="453.0">ha, a</tspan>
+    </text>
+    <path d="M 492 492.0 L 496 492.0 L 496 506" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-aral">
+    <title>järvi – pysty</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-5-7-0)">
+      <tspan x="750" y="553.0">järvi</tspan>
+    </text>
+    <path d="M 792 592.0 L 796 592.0 L 796 606" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-ahti">
+    <title>muinaisjumala – pysty</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-5-9-0)">
+      <tspan x="950" y="541.0">muinaisj</tspan>
+      <tspan x="950" y="565.0">umala</tspan>
+    </text>
+    <path d="M 992 592.0 L 996 592.0 L 996 606" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-pata">
+    <title>maa – pysty</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-7-6-0)">
+      <tspan x="650" y="753.0">maa</tspan>
+    </text>
+    <path d="M 692 792.0 L 696 792.0 L 696 806" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-olut">
+    <title>mallasjuoma – pysty</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-7-8-0)">
+      <tspan x="850" y="741.0">mallasju</tspan>
+      <tspan x="850" y="765.0">oma</tspan>
+    </text>
+    <path d="M 892 792.0 L 896 792.0 L 896 806" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-naamiot">
+    <title>maskit – pysty</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-9-1-0)">
+      <tspan x="150" y="953.0">maskit</tspan>
+    </text>
+    <path d="M 192 992.0 L 196 992.0 L 196 1006" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-liikaa">
+    <title>yli äyräiden – pysty</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-10-7-0)">
+      <tspan x="750" y="1041.0">yli</tspan>
+      <tspan x="750" y="1065.0">äyräiden</tspan>
+    </text>
+    <path d="M 792 1092.0 L 796 1092.0 L 796 1106" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-afasia">
+    <title>puhehäiriö – pysty</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-10-9-0)">
+      <tspan x="950" y="1041.0">puhehäir</tspan>
+      <tspan x="950" y="1065.0">iö</tspan>
+    </text>
+    <path d="M 992 1092.0 L 996 1092.0 L 996 1106" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-mytty">
+    <title>vaatteista – pysty</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-11-2-0)">
+      <tspan x="250" y="1141.0">vaatteist</tspan>
+      <tspan x="250" y="1165.0">a</tspan>
+    </text>
+    <path d="M 292 1192.0 L 296 1192.0 L 296 1206" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-useat">
+    <title>monet – pysty</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-11-4-0)">
+      <tspan x="450" y="1153.0">monet</tspan>
+    </text>
+    <path d="M 492 1192.0 L 496 1192.0 L 496 1206" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-vaan">
+    <title>MUTTA – pysty</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-12-6-0)">
+      <tspan x="650" y="1253.0">MUTTA</tspan>
+    </text>
+    <path d="M 692 1292.0 L 696 1292.0 L 696 1306" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+  <g id="vihje-hart">
+    <title>moke Joe – pysty</title>
+    <text font-family="Arial, sans-serif" font-size="21" fill="#142b3b" text-anchor="middle" clip-path="url(#clip-12-8-0)">
+      <tspan x="850" y="1241.0">moke</tspan>
+      <tspan x="850" y="1265.0">Joe</tspan>
+    </text>
+    <path d="M 892 1292.0 L 896 1292.0 L 896 1306" fill="none" stroke="#173c53" stroke-width="1.8" marker-end="url(#nuoli)" />
+  </g>
+</svg>

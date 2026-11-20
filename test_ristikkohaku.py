@@ -39,7 +39,7 @@ class Siltakoe(unittest.TestCase):
     def test_idea_raid(self):
         pohja = ('a##i', '....', '.##.', '.##.')
         sanat = {'arki', 'idea', 'raid'}
-        for strategia in ('nykyinen', 'reunat'):
+        for strategia in ('nykyinen', 'reunat', 'pitkat'):
             with self.subTest(strategia=strategia):
                 self.assertEqual(ratkaise(pohja, sanat, strategia=strategia),
                                  ['a##i', 'raid', 'k##e', 'i##a'])
@@ -55,6 +55,12 @@ class Siltakoe(unittest.TestCase):
         self.assertEqual(m.umpikujat, {(0, 'k...'): 1})
         with self.assertRaises(TimeoutError):
             ratkaise(POHJA, self.sanat, takaraja=0)
+
+    def test_pitkat_ratkeaa(self):
+        tulos = ratkaise(POHJA, self.sanat, strategia='pitkat')
+        self.assertIsNotNone(tulos)
+        self.assertEqual({''.join(tulos[y][x] for y,x in p) for p in sanapaikat(POHJA)}, self.sanat)
+        self.assertIsNone(ratkaise(POHJA, self.sanat - {'ulakeskus'}, strategia='pitkat'))
 
     def test_ratkeaa(self):
         tulos = ratkaise(POHJA, self.sanat)
